@@ -23,7 +23,8 @@ git clone https://github.com/yourusername/docker-exporter.git
 ## build the application
 
 1. cd docker-exporter
-2. ``` go build ```
+2. ```go mod tidy```
+3. ``` go build ```
 
 ## Usage
 
